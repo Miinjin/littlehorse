@@ -1,0 +1,55 @@
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 360px;
+    height: 640px;
+    background-color: #FBD46D;
+    text-align: center;
+}
+h2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.conts {
+    position: absolute;
+    left: 20px; bottom: 20px;
+    margin: 0 auto;
+    width: 320px;
+    height: 500px;
+    background-color: #F4F6FF;
+}
+.row {
+    margin-top: 18px;
+    margin-left: 11px;
+}
+.row .none {
+    width: 50px;
+    height: 50px;
+    display: block;
+    font-size: 24px;
+    background: #444;
+    padding: auto 0;
+    line-height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 11px;
+}
+.active {
+    width: 50px;
+    height: 50px;
+    display: block;
+    font-size: 24px;
+    background: #ccc;
+    padding: auto 0;
+    line-height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 11px;
+}
+.active:hover {
+    background: #4F8A8B;
+}
+.none {
+    cursor: auto;
+}
